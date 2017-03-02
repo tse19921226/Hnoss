@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/inHeader"
+        layout="@layout/common_title" />
+
+    <ImageView
+        android:id="@+id/imgDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/inHeader"
+        android:layout_above="@+id/imgBackgroundDetail"/>
+
+    <ImageView
+        android:id="@+id/imgBackgroundDetail"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgBackgroundDetail"
+        android:layout_alignLeft="@+id/imgBackgroundDetail"
+        android:layout_alignRight="@+id/imgBackgroundDetail"
+        android:layout_alignTop="@+id/imgBackgroundDetail">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvDetailAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_author"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvDetailAuthor_write"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDetailAuthor"
+                android:layout_marginLeft="10dp"
+                android:text="@string/detail_author"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvDetailAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDetailAuthor_write"
+                android:text="@string/detail_age"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvDetailAge_write"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDetailAge"
+                android:layout_marginLeft="10dp"
+                android:text="@string/detail_author"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvDetailTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDetailAge_write"
+                android:text="@string/detail_title"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvDetailTitle_write"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDetailTitle"
+                android:layout_marginLeft="10dp"
+                android:text="@string/detail_author"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvCenter"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/tvDetailMaterial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvCenter"
+                android:text="@string/detail_material"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvDetailMaterial_write"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDetailMaterial"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tvCenter"
+                android:text="@string/detail_material"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvDetailSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDetailMaterial_write"
+                android:layout_toRightOf="@+id/tvCenter"
+                android:text="@string/detail_size"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvDetailSize_write"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_size"
+                android:textSize="20sp"
+                android:layout_alignBottom="@+id/tvDetailSize"
+                android:layout_toRightOf="@+id/tvDetailDownloadWallpaper"
+                android:layout_toEndOf="@+id/tvDetailDownloadWallpaper"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_download"
+                android:id="@+id/tvDetailDownload"
+                android:textSize="24sp"
+                android:layout_alignStart="@+id/tvDetailSize"
+                android:layout_below="@+id/tvDetailSize"
+                android:typeface="serif"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_download"
+                android:id="@+id/tvDetailDownload_write"
+                android:textSize="20sp"
+                android:layout_alignEnd="@+id/tvDetailDownload"
+                android:layout_below="@+id/tvDetailDownload"
+                android:typeface="serif" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_downloadWallpaper"
+                android:id="@+id/tvDetailDownloadWallpaper"
+                android:layout_alignStart="@+id/tvDetailDownload"
+                android:layout_below="@+id/tvDetailDownload_write"
+                android:typeface="serif" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

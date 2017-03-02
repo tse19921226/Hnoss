@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home">Home</string>
+    <string name="free">Free</string>
+    <string name="gallery">Gallery</string>
+    <string name="account">Account</string>
+    <string name="aucting">Aucting</string>
+    <string name="setting">Setting</string>
+    <string name="enter">Enter</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="detail_author">Author</string>
+
+    <string name="detail_title">Title</string>
+    <string name="detail_age">Age</string>
+    <string name="detail_material">Material</string>
+    <string name="detail_size">Size</string>
+    <string name="detail_download">Downloads</string>
+    <string name="detail_downloadWallpaper">Apply</string>
+
+    <string name="chinese">Chinese(Simplified)</string>
+    <string name="chinese_Traditional">Chinese(Traditional)</string>
+    <string name="english">English</string>
+    <string name="español">Español</string>
+
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="title_activity_loging_page">LogingPage</string>
+    <string name="apply">Register</string>
+    <string name="Login">Login</string>
+    <string name="LogOut">LogOut</string>
+
+    <string name="announcement">Announcement</string>
+    <string name="provision">Provision</string>
+    <string name="notification">Notification</string>
+    <string name="languages">Languages</string>
+    <string name="version">version</string>
+
+    <string name="announcement_write">wait for us</string>
+    <string name="provision_write">wait for we later</string>
+
+</resources>
+
+
+

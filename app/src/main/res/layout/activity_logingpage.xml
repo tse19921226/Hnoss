@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jartcorp.hnoss.LogingPage"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/regAccount"
+        android:hint="@string/account"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/regPassword"
+        android:hint="@string/password"
+        android:layout_above="@+id/regAccount"
+        android:layout_alignRight="@+id/regName"
+        android:layout_alignEnd="@+id/regName"
+        android:layout_marginTop="20dp"
+        android:maxLength="10"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/regName"
+        android:hint="@string/name"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/regBtn"
+        android:layout_alignStart="@+id/regBtn"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/regEmail"
+        android:hint="@string/email"
+        android:layout_alignBaseline="@+id/regBtn"
+        android:layout_alignBottom="@+id/regBtn"
+        android:layout_alignLeft="@+id/regBtn"
+        android:layout_alignStart="@+id/regBtn"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/apply"
+        android:textSize="30dp"
+        android:id="@+id/regBtn"
+        android:layout_below="@+id/regAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp" />
+</LinearLayout>

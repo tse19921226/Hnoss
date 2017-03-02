@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Inicio</string>
+    <string name="free">mes gratis</string>
+    <string name="gallery">Galería</string>
+    <string name="account">cuenta</string>
+    <string name="aucting">Colección auténtico</string>
+    <string name="setting">Ajuste</string>
+    <string name="enter">determinar</string>
+    <string name="back">Volver</string>
+    <string name="cancel">cancelar</string>
+    <string name="detail_author">Autor</string>
+
+    <string name="detail_title">Título</string>
+    <string name="detail_age">Año</string>
+    <string name="detail_material">materiales</string>
+    <string name="detail_size">Tamaño</string>
+    <string name="detail_download">descargas</string>
+    <string name="detail_downloadWallpaper">aplicar mecánicamente</string>
+
+    <string name="password">Contraseña</string>
+    <string name="name">nombre completo</string>
+    <string name="email">E-mail</string>
+    <string name="title_activity_loging_page">Registro</string>
+    <string name="apply">Registro</string>
+    <string name="Login">Ingresar</string>
+    <string name="LogOut">Salir</string>
+
+
+    <string name="chinese">chino Simplificado</string>
+    <string name="chinese_Traditional">chino tradicional</string>
+    <string name="english">Inglés</string>
+    <string name="español">Español</string>
+
+    <string name="announcement">Anuncio</string>
+    <string name="provision">Provisión</string>
+    <string name="notification">Notificación</string>
+    <string name="languages">Soporte Idiomas</string>
+    <string name="version">liberación</string>
+
+    <string name="announcement_write">Manténgase en sintonía</string>
+    <string name="provision_write">Sin</string>
+
+
+</resources>

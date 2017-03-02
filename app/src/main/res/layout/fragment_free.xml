@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgFree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/imgFreeOne"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/tvCenter"
+        android:layout_width="10dp"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/imgFreeOne"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/kath0000"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/imgFreeTwo"
+        android:layout_marginBottom="2dp" />
+
+    <ImageView
+        android:id="@+id/imgFreeTwo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/treemove020000"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/tvCenter"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp"
+        android:scaleType="fitCenter"/>
+
+    <ImageView
+        android:id="@+id/imgFreeThree"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/sakura030000"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/tvCenter"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:scaleType="fitCenter"/>
+
+    <ImageView
+        android:id="@+id/imgFreeFour"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/later"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imgFreeThree"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:scaleType="centerInside"/>
+
+
+</RelativeLayout>

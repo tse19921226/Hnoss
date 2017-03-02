@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home">首頁</string>
+    <string name="free">本月免費</string>
+    <string name="gallery">畫廊</string>
+    <string name="account">帳戶</string>
+    <string name="aucting">真跡典藏</string>
+    <string name="setting">設定</string>
+    <string name="enter">確定</string>
+    <string name="back">返回</string>
+    <string name="cancel">取消</string>
+    <string name="detail_author">作者</string>
+
+    <string name="detail_title">作品名稱</string>
+    <string name="detail_age">年份</string>
+    <string name="detail_material">材質</string>
+    <string name="detail_size">尺寸</string>
+    <string name="detail_download">下載次數</string>
+    <string name="detail_downloadWallpaper">套用</string>
+
+    <string name="password">密碼</string>
+    <string name="name">姓名</string>
+    <string name="email">Email</string>
+    <string name="title_activity_loging_page">註冊</string>
+    <string name="apply">註冊</string>
+    <string name="Login">登入</string>
+    <string name="LogOut">登出</string>
+
+
+    <string name="chinese">簡體中文</string>
+    <string name="chinese_Traditional">繁體中文</string>
+    <string name="english">英文</string>
+    <string name="español">西班牙文</string>
+
+    <string name="announcement">公告</string>
+    <string name="provision">條款</string>
+    <string name="notification">通知</string>
+    <string name="languages">支持語系</string>
+    <string name="version">版本</string>
+
+    <string name="announcement_write">敬請期待</string>
+    <string name="provision_write">暫無</string>
+
+</resources>
